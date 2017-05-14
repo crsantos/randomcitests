@@ -14,7 +14,7 @@ class ViewController: UIViewController {
 
         super.viewDidLoad()
 
-        self.title = "CI Tests 2"
+        self.title = "CI Tests 3"
     }
 }
 
