@@ -547,6 +547,7 @@
 				1F48A0781EC8C80900DC464B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1F48A0841EC8C8E500DC464B /* Build configuration list for PBXNativeTarget "citestsTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +556,7 @@
 				1F48A0861EC8C8E500DC464B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
