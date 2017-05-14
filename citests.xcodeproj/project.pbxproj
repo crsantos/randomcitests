@@ -13,6 +13,7 @@
 		1F48A06F1EC8C80900DC464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A06E1EC8C80900DC464B /* Assets.xcassets */; };
 		1F48A0721EC8C80900DC464B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A0701EC8C80900DC464B /* LaunchScreen.storyboard */; };
 		1F48A0801EC8C8E500DC464B /* citestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48A07F1EC8C8E500DC464B /* citestsTests.swift */; };
+		1F8658DF1EC8E15A00DC8709 /* WhatTheFuckable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F8658DE1EC8E15A00DC8709 /* WhatTheFuckable.swift */; };
 		40F8E45A0587A0129C7E6322 /* Pods_citests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84596BC14F6B2C8F2CB5EE24 /* Pods_citests.framework */; };
 		B7665A0080FB68A7D1829489 /* Pods_citestsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C6BAC7D620520230323115 /* Pods_citestsTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		1F48A07D1EC8C8E500DC464B /* citestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F48A07F1EC8C8E500DC464B /* citestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citestsTests.swift; sourceTree = "<group>"; };
 		1F48A0811EC8C8E500DC464B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F8658DE1EC8E15A00DC8709 /* WhatTheFuckable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatTheFuckable.swift; sourceTree = "<group>"; };
 		4043D96169CC62E0BB927605 /* Pods-citestsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-citestsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-citestsTests/Pods-citestsTests.release.xcconfig"; sourceTree = "<group>"; };
 		75C6BAC7D620520230323115 /* Pods_citestsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_citestsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84596BC14F6B2C8F2CB5EE24 /* Pods_citests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_citests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,6 +91,7 @@
 		1F48A0661EC8C80900DC464B /* citests */ = {
 			isa = PBXGroup;
 			children = (
+				1F8658DC1EC8DFAB00DC8709 /* Classes */,
 				1F48A0671EC8C80900DC464B /* AppDelegate.swift */,
 				1F48A0691EC8C80900DC464B /* ViewController.swift */,
 				1F48A06B1EC8C80900DC464B /* Main.storyboard */,
@@ -106,6 +109,22 @@
 				1F48A0811EC8C8E500DC464B /* Info.plist */,
 			);
 			path = citestsTests;
+			sourceTree = "<group>";
+		};
+		1F8658DC1EC8DFAB00DC8709 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F8658DD1EC8DFC900DC8709 /* Protocols */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1F8658DD1EC8DFC900DC8709 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1F8658DE1EC8E15A00DC8709 /* WhatTheFuckable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		2ED8F1A2F418A991168F6A05 /* Pods */ = {
@@ -332,6 +351,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F8658DF1EC8E15A00DC8709 /* WhatTheFuckable.swift in Sources */,
 				1F48A06A1EC8C80900DC464B /* ViewController.swift in Sources */,
 				1F48A0681EC8C80900DC464B /* AppDelegate.swift in Sources */,
 			);
