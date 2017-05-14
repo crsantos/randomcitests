@@ -1,0 +1,12 @@
+
+apple_id ENV["MY_APP_NAME_APPLE_ID"] # Your Apple email address
+
+for_lane :test do
+  app_identifier 'info.crsantos.citestsTests.debug'
+  scheme 'Debug'
+end
+
+for_lane :adhoc do
+  app_identifier 'info.crsantos.citestsTests.adhoc'
+  scheme 'Adhoc'
+end

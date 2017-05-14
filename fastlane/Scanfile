@@ -1,0 +1,4 @@
+scheme "Debug"
+clean true
+code_coverage true
+device "iPhone 7"

@@ -12,7 +12,18 @@
 		1F48A06D1EC8C80900DC464B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A06B1EC8C80900DC464B /* Main.storyboard */; };
 		1F48A06F1EC8C80900DC464B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A06E1EC8C80900DC464B /* Assets.xcassets */; };
 		1F48A0721EC8C80900DC464B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F48A0701EC8C80900DC464B /* LaunchScreen.storyboard */; };
+		1F48A0801EC8C8E500DC464B /* citestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F48A07F1EC8C8E500DC464B /* citestsTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F48A0821EC8C8E500DC464B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F48A05C1EC8C80900DC464B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F48A0631EC8C80900DC464B;
+			remoteInfo = citests;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1F48A0641EC8C80900DC464B /* citests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = citests.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +33,20 @@
 		1F48A06E1EC8C80900DC464B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F48A0711EC8C80900DC464B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F48A0731EC8C80900DC464B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F48A07D1EC8C8E500DC464B /* citestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = citestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F48A07F1EC8C8E500DC464B /* citestsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = citestsTests.swift; sourceTree = "<group>"; };
+		1F48A0811EC8C8E500DC464B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		1F48A0611EC8C80900DC464B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F48A07A1EC8C8E500DC464B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				1F48A0661EC8C80900DC464B /* citests */,
+				1F48A07E1EC8C8E500DC464B /* citestsTests */,
 				1F48A0651EC8C80900DC464B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				1F48A0641EC8C80900DC464B /* citests.app */,
+				1F48A07D1EC8C8E500DC464B /* citestsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -62,6 +85,15 @@
 				1F48A0731EC8C80900DC464B /* Info.plist */,
 			);
 			path = citests;
+			sourceTree = "<group>";
+		};
+		1F48A07E1EC8C8E500DC464B /* citestsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F48A07F1EC8C8E500DC464B /* citestsTests.swift */,
+				1F48A0811EC8C8E500DC464B /* Info.plist */,
+			);
+			path = citestsTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +116,24 @@
 			productReference = 1F48A0641EC8C80900DC464B /* citests.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1F48A07C1EC8C8E500DC464B /* citestsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F48A0841EC8C8E500DC464B /* Build configuration list for PBXNativeTarget "citestsTests" */;
+			buildPhases = (
+				1F48A0791EC8C8E500DC464B /* Sources */,
+				1F48A07A1EC8C8E500DC464B /* Frameworks */,
+				1F48A07B1EC8C8E500DC464B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F48A0831EC8C8E500DC464B /* PBXTargetDependency */,
+			);
+			name = citestsTests;
+			productName = citestsTests;
+			productReference = 1F48A07D1EC8C8E500DC464B /* citestsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +148,12 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = CWT826P5EN;
 						ProvisioningStyle = Automatic;
+					};
+					1F48A07C1EC8C8E500DC464B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CWT826P5EN;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F48A0631EC8C80900DC464B;
 					};
 				};
 			};
@@ -115,6 +171,7 @@
 			projectRoot = "";
 			targets = (
 				1F48A0631EC8C80900DC464B /* citests */,
+				1F48A07C1EC8C8E500DC464B /* citestsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +187,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F48A07B1EC8C8E500DC464B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -142,7 +206,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F48A0791EC8C8E500DC464B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F48A0801EC8C8E500DC464B /* citestsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F48A0831EC8C8E500DC464B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F48A0631EC8C80900DC464B /* citests */;
+			targetProxy = 1F48A0821EC8C8E500DC464B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1F48A06B1EC8C80900DC464B /* Main.storyboard */ = {
@@ -168,6 +248,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_ID = info.crsantos.citestsTests.debug;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -218,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_ID = info.crsantos.citestsTests.adhoc;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -264,7 +346,7 @@
 				DEVELOPMENT_TEAM = CWT826P5EN;
 				INFOPLIST_FILE = citests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = info.crsantos.citests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,9 +359,37 @@
 				DEVELOPMENT_TEAM = CWT826P5EN;
 				INFOPLIST_FILE = citests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = info.crsantos.citests;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F48A0851EC8C8E500DC464B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CWT826P5EN;
+				INFOPLIST_FILE = citestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/citests.app/citests";
+			};
+			name = Debug;
+		};
+		1F48A0861EC8C8E500DC464B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CWT826P5EN;
+				INFOPLIST_FILE = citestsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = info.crsantos.citestsTests.adhoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/citests.app/citests";
 			};
 			name = Release;
 		};
@@ -300,6 +410,14 @@
 			buildConfigurations = (
 				1F48A0771EC8C80900DC464B /* Debug */,
 				1F48A0781EC8C80900DC464B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F48A0841EC8C8E500DC464B /* Build configuration list for PBXNativeTarget "citestsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F48A0851EC8C8E500DC464B /* Debug */,
+				1F48A0861EC8C8E500DC464B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
