@@ -5,6 +5,8 @@ target 'citests' do
   use_frameworks!
 
   # Pods for citests
+  pod 'Fabric'
+  pod 'Crashlytics'
 
   target 'citestsTests' do
     inherit! :search_paths
