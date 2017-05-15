@@ -15,6 +15,18 @@ platform :ios do
     scan
   end
 
+  lane :devbuild do
+    gym(export_method: "development")
+  end
+
+  desc "Distribute to Beta"
+  lane :upload_beta do
+    crashlytics(
+      api_token: ENV["beta_api_token"],
+      build_secret: ENV["beta_build_secret"]
+    )
+end
+
   after_all do |lane|
     # This block is called, only if the executed lane was successful
 

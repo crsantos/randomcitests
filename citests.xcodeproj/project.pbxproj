@@ -160,6 +160,7 @@
 				1F48A0621EC8C80900DC464B /* Resources */,
 				5F338EEF063EE467E3961F8B /* [CP] Embed Pods Frameworks */,
 				C24083078EB1FF628DD3F83E /* [CP] Copy Pods Resources */,
+				2F3C5DE61EC9C14C00C55F58 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -203,7 +204,7 @@
 				TargetAttributes = {
 					1F48A0631EC8C80900DC464B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = CWT826P5EN;
+						DevelopmentTeam = YRR3Z73Z6M;
 						ProvisioningStyle = Automatic;
 					};
 					1F48A07C1EC8C8E500DC464B = {
@@ -254,6 +255,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2F3C5DE61EC9C14C00C55F58 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" dab5065ca47f717ba99c9158a06033e82e329081 ab0a6eec1336af1f46a5c9254b419f9fadbd3c94a389ec4b01da2110867b6608";
+		};
 		30FFBBC99C618A6C95E98A9D /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,10 +509,12 @@
 			baseConfigurationReference = 91F4E3110DA1A85EFE8C90C9 /* Pods-citests.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CWT826P5EN;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YRR3Z73Z6M;
 				INFOPLIST_FILE = citests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetch.citests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -509,10 +525,12 @@
 			baseConfigurationReference = 9A9A840BA02445FC384CB042 /* Pods-citests.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = CWT826P5EN;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = YRR3Z73Z6M;
 				INFOPLIST_FILE = citests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "$(BUNDLE_ID)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.farfetch.citests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
